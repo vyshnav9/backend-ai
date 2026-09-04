@@ -1,0 +1,12 @@
+sentinel-view
+│
+├── ai_engine
+├── backend
+│   ├── api
+│   ├── database
+│   ├── models
+│   ├── services
+│   └── main.py
+├── tests
+├── .gitignore
+└── requirements.txt
