@@ -1,0 +1,24 @@
+                POST /detect
+                     ↓
+             DetectionRequest
+                     ↓
+             threat_analyzer.py
+                     ↓
+                Score = 85
+                     ↓
+          severity_classifier.py
+                     ↓
+              Severity = CRITICAL
+                     ↓
+               API Response
+
+
+POST /detect
+    ↓
+Threat analysis
+    ↓
+Score
+    ↓
+Severity
+    ↓
+MongoDB incidents collection
