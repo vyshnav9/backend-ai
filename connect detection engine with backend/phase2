@@ -1,0 +1,22 @@
+                 POST /detect
+                      │
+                      ▼
+              DetectionRequest
+                      │
+                      ▼
+             threat_analyzer.py
+                      │
+                      ▼
+              Threat Score
+                      │
+                      ▼
+             Severity Classifier
+                      │
+                      ▼
+              MITRE Mapper
+                      │
+                      ▼
+                MongoDB
+                      │
+                      ▼
+              Detection Result
