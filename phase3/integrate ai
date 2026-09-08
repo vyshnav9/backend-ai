@@ -1,0 +1,40 @@
+## 🤖 AI Integration
+
+Integrated an AI layer into the Sentinel-View cybersecurity threat detection pipeline.
+
+The AI component is designed to analyze detected security events and generate meaningful explanations for SOC analysts.
+
+### 🔹 AI Capabilities
+
+- Analyze detected security events
+- Explain why an event may be suspicious
+- Generate human-readable threat explanations
+- Provide investigation suggestions for security analysts
+- Support incident summarization
+- Prepare the system for future remediation recommendations
+
+### 🔹 Integration Flow
+
+Security Event
+      ↓
+FastAPI Detection API
+      ↓
+Threat Analyzer
+      ↓
+Threat Score
+      ↓
+Severity Classification
+      ↓
+AI Engine
+      ↓
+AI-Generated Explanation
+
+### 🧰 Technologies
+
+- Python
+- FastAPI
+- Ollama / OpenAI
+- AI-powered threat analysis
+- REST API
+
+This integration is an important step toward building an **AI-assisted SOC platform** capable of helping analysts understand and investigate cybersecurity incidents more efficiently.
