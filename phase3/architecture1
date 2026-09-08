@@ -1,0 +1,29 @@
+                     POST /detect
+                          │
+                          ▼
+                  ┌───────────────┐
+                  │ Detection API │
+                  └───────┬───────┘
+                          │
+                          ▼
+                 threat_analyzer.py
+                          │
+                          ▼
+                     Score = 85
+                          │
+                          ▼
+                severity_classifier
+                          │
+                          ▼
+                   CRITICAL
+                          │
+              ┌───────────┴───────────┐
+              ▼                       ▼
+       correlation_engine       LLM Service
+              │                       │
+              ▼                       ▼
+         MITRE mapping          AI explanation
+              │                       │
+              └───────────┬───────────┘
+                          ▼
+                       MongoDB
