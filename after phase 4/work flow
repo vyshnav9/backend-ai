@@ -1,0 +1,33 @@
+             SECURITY EVENT
+                   │
+                   ▼
+              /detect
+                   │
+                   ▼
+          Threat Analysis
+                   │
+          ┌────────┼────────┐
+          ▼        ▼        ▼
+       Score    Severity   MITRE
+          │        │        │
+          └────────┼────────┘
+                   ▼
+            AI Explanation
+                   │
+          ┌────────┼─────────┐
+          ▼        ▼         ▼
+      VirusTotal AbuseIPDB Remediation
+          │        │         │
+          └────────┼─────────┘
+                   ▼
+            INCIDENT LOG
+                   │
+                   ▼
+               MongoDB
+             ares_soc
+             incidents
+                   │
+          ┌────────┼─────────┐
+          ▼        ▼         ▼
+       Telegram   PDF      History
+        Alert     Report    /incidents
