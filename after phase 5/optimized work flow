@@ -1,1 +1,37 @@
 
+                    /detect
+                       │
+                       ▼
+              Detection Service
+                       │
+             ┌─────────┴─────────┐
+             ▼                   ▼
+      Threat Analyzer      Correlation Engine
+             │                   │
+             └─────────┬─────────┘
+                       ▼
+                 Final Score
+                       │
+                       ▼
+                Severity Classifier
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+        MITRE      Remediation    AI Check
+                                      │
+                              HIGH / CRITICAL?
+                                │         │
+                               YES        NO
+                                │         │
+                                ▼         ▼
+                              Ollama    Skip LLM
+                                │
+                                ▼
+                         AI Explanation
+                                │
+                                ▼
+                         Final Response
+                                │
+               ┌────────────────┼───────────────┐
+               ▼                ▼               ▼
+            MongoDB          Telegram        Report
