@@ -1,0 +1,16 @@
+                    MongoDB
+                       │
+                ares_soc database
+                       │
+                  incidents
+                       │
+        ┌──────────────┼──────────────┐
+        │              │              │
+    created_at      severity      source_ip
+        │              │              │
+        └──────────────┼──────────────┘
+                       │
+                    INDEXES
+                       │
+                       ▼
+                  Fast Queries
