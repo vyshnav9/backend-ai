@@ -1,0 +1,49 @@
+sentinel-view/
+│
+├── backend/
+│   │
+│   ├── api/
+│   │   └── routes/
+│   │       ├── alerts.py
+│   │       ├── detection.py
+│   │       ├── virustotal.py
+│   │       ├── abuseipdb.py
+│   │       ├── incidents.py
+│   │       ├── incident_report.py
+│   │       └── telegram.py
+│   │
+│   ├── database/
+│   │   ├── __init__.py
+│   │   └── connection.py
+│   │
+│   ├── models/
+│   │   ├── alert.py
+│   │   └── incident.py
+│   │
+│   ├── schemas/
+│   │   ├── detection.py
+│   │   └── detection_response.py
+│   │
+│   ├── services/
+│   │   ├── alert_service.py
+│   │   ├── detection_service.py
+│   │   ├── incident_service.py
+│   │   ├── virustotal_service.py
+│   │   ├── abuseipdb_service.py
+│   │   ├── report_service.py
+│   │   └── telegram_service.py
+│   │
+│   ├── llm_service.py
+│   └── main.py
+│
+├── ai_engine/
+│   ├── threat_analyzer.py
+│   ├── correlation_engine.py
+│   ├── severity_classifier.py
+│   ├── mitre_mapper.py
+│   ├── mitigation_recommender.py
+│   └── prompts.py
+│
+├── tests/
+├── requirements.txt
+└── .env
