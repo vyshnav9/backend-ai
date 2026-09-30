@@ -1,0 +1,23 @@
+                  Security Event
+                       │
+                       ▼
+                Threat Analyzer
+                       │
+                       ▼
+                Threat Score
+                       │
+                       ▼
+              Correlation Engine
+                       │
+                       ▼
+             Correlation Score
+                       │
+                       ▼
+                Final Score
+                       │
+                       ▼
+             Severity Classifier
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+        MITRE      Remediation   AI Analysis
