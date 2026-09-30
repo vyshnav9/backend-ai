@@ -1,0 +1,31 @@
+                         ARES-SOC Backend
+                               │
+                               ▼
+                         FastAPI API
+                               │
+              ┌────────────────┼────────────────┐
+              │                │                │
+              ▼                ▼                ▼
+          Alert API       Detection API    Incident API
+              │                │                │
+              │                ▼                │
+              │         AI Analysis             │
+              │                │                │
+              │      ┌─────────┼─────────┐      │
+              │      ▼         ▼         ▼      │
+              │   Threat   Correlation  MITRE   │
+              │   Analysis  Engine      Mapping  │
+              │                │                │
+              │                ▼                │
+              │          Severity              │
+              │                │                │
+              │                ▼                │
+              │          AI Explanation        │
+              │                │                │
+              └────────────────┼────────────────┘
+                               ▼
+                           MongoDB
+                               │
+                ┌──────────────┼──────────────┐
+                ▼              ▼              ▼
+           VirusTotal      AbuseIPDB       Telegram
